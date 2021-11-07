@@ -1,9 +1,13 @@
+@import './constants/colors';
+
 @import './base/fonts';
 @import './base/_normalize';
 @import './base/_reset';
 
+$first: 1;
+
 p {
-  color: #000;
+  line-height: $first;
 }
 * {
   font-family: 'Noto Sans KR', sans-serif;
